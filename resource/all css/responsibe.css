@@ -1,0 +1,366 @@
+@media only screen and (max-width:1200px) and (min-width:200px){
+    body{
+        background-color: coral;
+    }
+    .mobile-manu{
+        display: block;
+        margin-top: 40px;
+    }
+    .overlay a:hover{
+        color: #fff ;
+    }
+   
+}
+
+@media only  screen  and (max-width:1024px) and (min-width:200px){
+    .nav-items{
+        display: none;
+    }
+    .hero-area{
+        margin: 0 72px;
+        margin-top: 150px;
+    }
+    .secction-header {
+    margin: 0px 257px;
+
+    }
+    .singel-sbox {
+        width: 217px;
+        margin-left: 50px;
+    }
+    .tream-member {
+        width: 19.5%;
+    }
+    .singel-skill-box{
+        width: 17.5%;
+    }
+    .btn-container{
+        margin: 0 335px;
+    }
+    .singel-portfolio-box{
+        width: 45%;
+    }
+    .portfolio-btn{
+        margin: 0px 387px;
+        width: 248px;
+    }
+    .section-header{
+        width: 595px;
+        margin: 0 214px;
+    }
+    .singel-testimonial-box{
+        width: 45%;
+    }
+    .testimonial-img{
+        margin-left: 3px;
+    }
+   
+    #contact-section form{
+        width: 85%;
+        margin: 0 26px;
+    }
+    .submit-botton{
+        width: 255px;
+        margin: 0 383px;
+    }
+    .main-footer{
+        width: 800px;
+        margin: 0px 111px;
+     }
+     
+}
+
+@media only  screen  and (max-width:980px){
+    .nav-icon img {
+        margin-left: 10px;
+    }
+    .singel-sbox {
+        width: 217px;
+        margin-left: 36px;
+    }
+    .singel-sbox p{
+        font-size: 18px;
+    }
+    .tream-member {
+        width: 19.5%;
+        margin-left: 3%;
+    }
+    .singel-skill-box {
+        width: 16.5%;
+    }
+    .singel-portfolio-box {
+        width: 43%;
+    }
+    .hero-area{
+        margin: 0 50px;
+        margin-top: 150px;
+    }
+    .portfolio-btn {
+        margin: 0px 364px;
+    }
+    .section-header {
+        width: 595px;
+        margin: 0 193px;
+    }
+    .testimonial-img{
+        float: none;
+        padding: 0px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .testimonial-dosc{
+      float: left;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+    }
+    .testimonial-dosc p{
+        width: 418px;
+        margin: 0 25px;
+        text-align: center;
+    }
+    .testimonial-dosc h3, h5 {
+        margin-left: 111px;
+      }
+    .testimonial-dosc h3{
+        margin-top: 20px;
+    }
+    
+    .secction-header {
+
+    margin: 0px 234px;
+    }
+    #contact-section form {
+        margin: 0 6px;
+    }
+    .submit-botton {
+        margin: 0 363px;
+    }
+    .main-footer {
+        margin: 0px 90px;
+    }
+}
+@media only  screen  and (max-width:810px){
+    header{
+        height: 55vh;
+    }
+    .hero-area {
+        width: 710px;
+    }
+    .secction-header {
+        margin: 0px 150px;
+    }
+    .singel-sbox {
+        width: 371px;
+        margin-left: 34px;
+    }
+    .singel-sbox:nth-child(3){
+        margin-top: 35px;
+    }
+    .singel-sbox:nth-child(4){
+        margin-top: 35px;
+    }
+    .tream-member {
+        width: 32.5%;
+    }
+    .tream-member:nth-child(3){
+        margin-top: 35px;
+    }
+    .tream-member:nth-child(4){
+        margin-top: 35px;
+    }
+    .singel-skill-box {
+        width: 32.5%;
+    }
+    .singel-skill-box:nth-child(3){
+        margin-top: 35px;
+    }
+    .singel-skill-box:nth-child(4){
+        margin-top: 35px;
+    }
+    .btn-container {
+        margin: 0px 226px;
+    }
+    .singel-portfolio-box {
+        width: 36%;
+    }
+    .portfolio-btn {
+        margin: 0px 280px;
+    }
+    .section-header {
+        margin: 0 108px;
+    }
+    .singel-testimonial-box {
+        width: 36%;
+    }
+    .testimonial-dosc p {
+        width: 349px;
+    }
+    .testimonial-dosc {
+        width: 323px;
+    }
+    #contact-section form {
+        width: 70%;
+    }
+    .submit-botton {
+        margin: 0 278px;
+    }
+    .main-footer {
+        margin: 0px 5px;
+    }
+}
+@media only  screen  and (max-width:414px){
+    .hero-area {
+        width: 314px;
+        margin-top: 115px;
+    }
+    .hero-area h1 {
+        font-size: 22px;
+    }
+    .secction-header h1 {
+        font-size: 28px;
+        color: #fff;
+        font-weight: bold;  
+    }
+    .secction-header {
+        margin: 0px 0px;
+    }
+    .secction-header p {
+        font-size: 21px;
+        width: 399px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .secction-header {
+        width: 411px;
+    }
+    .singel-sbox {
+      float: none;
+      margin-left: 0px;
+      width: 416px;
+    }
+    .singel-sbox:nth-child(2) {
+     margin-top:20px ;
+    }
+    .tream-member {
+        width: 36.5%;
+        margin: 0;
+        float: none;
+    }
+    .singel-skill-box {
+        width: 36.5%;
+        float: none;
+        margin: 0;
+    }
+    .btn-container {
+        margin: 0px 29px;
+    }
+    .singel-portfolio-box {
+        width: 37%;
+        float: none;
+    }
+    .portfolio-btn {
+        margin: 0px 87px;
+    }
+    .section-header {
+        margin: 0 0px;
+    }
+    .section-header h1{
+        font-size: 25px;
+    }
+    .section-header {
+        width: 415px;
+        margin: 0px;
+    }
+    .singel-testimonial-box {
+        width: 37%;
+        float: none;
+        margin-top: 200px;
+    }
+    .singel-testimonial-box:first-child {
+        margin-top:0px;
+    }
+    #contact-section form {
+        width: 35%;
+    }
+    .submit-botton {
+        margin: 0 79px;
+    }
+    .main-footer {
+        width: 414px;
+        margin: 0px;
+    }
+    .main-footer ul li {
+        padding: 10px 25px;
+    }  
+}
+@media only  screen  and (max-width:375px){
+    .hero-area {
+        width: 275px;
+        margin-top: 110px;
+    }
+    .hero-area h1 {
+        margin-bottom: 40px;
+    }
+    .hero-btn {
+        padding: 25px 71px;
+    }
+    .secction-header {
+        width: 371px;
+    
+    }
+    .secction-header p {   
+        width: 331px;
+    }
+    .singel-sbox:first-child {
+    
+        margin-left: 0px;
+    
+    }
+    .singel-sbox {
+        width: 371px;
+    }
+    .tream-member {
+        width: 376px;
+        margin-top: 20px;
+    }
+    .singel-skill-box {
+        width: 33%;
+    }
+    .btn-container {
+        margin: 0px 9px;
+    }
+    .singel-portfolio-box {
+        width: 33%;
+        float: none;
+    }
+    .portfolio-btn {
+        margin: 0px 62px;
+    }
+    .section-header {
+        width: 375px;
+    }
+    .singel-testimonial-box {
+        width: 33%;
+    }
+    .testimonial-dosc p {
+        width: 325px;
+    }
+    .testimonial-dosc h3, h5 {
+        margin-left: 65px;
+    }
+    .singel-testimonial-box:first-child {
+        margin-top:20px;
+    }
+    #contact-section form {
+        width: 32%;
+        margin: 0 5px;
+    }
+    .submit-botton {
+        margin: 0 60px;
+    }
+    .main-footer {
+        width: 375px;
+    }
+}

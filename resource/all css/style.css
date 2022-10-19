@@ -1,0 +1,629 @@
+/* common code starts
+============================================== */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body a{
+    text-decoration: none;
+}
+
+body ul li{
+    list-style: none;
+}
+.container::after{
+    display: table;
+    content: "";
+    clear:both;
+}
+section{
+    padding: 80px 0px;
+}
+.color{
+    color: #3c4761 !important;
+}
+ :focus{
+    outline: 0;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+/* common code ends
+============================================== */
+
+/* main header starts
+============================================== */
+header{
+    background-color: #87509c;
+    height: 80%vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* nav bar design start from here 
+============================================== */
+.nav-icon{
+    width: 30%;
+    float: left;
+}
+.nav-items{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.nav-items ul li{
+    display: inline-block;
+}
+.nav-icon img{
+    margin-top: 23px;
+    cursor: pointer;
+}
+.nav-items ul{
+    margin-top: 30px;
+}
+.nav-items ul li{
+    background-color: #643a7900;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.nav-items ul li:first-child{
+    margin-left: 0px;
+}
+.nav-items ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-items ul li:hover{
+    background-color: #643a79;
+}
+#active-nav-item{
+    background: #643a79;
+}
+.main-nav{
+    background-color: #87509c;
+    padding-bottom: 10px;
+}
+/* nav bar design end 
+========================================= */
+
+/*sticky nav manu design start form here 
+============================================ */
+nav{
+    position: fixed;
+    width: 100%;
+}
+.sticky{
+    background-color: #87509C;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+}
+.sticky .nav-icon img{
+    margin-top: 2px;
+}
+.sticky .nav-items ul{
+    margin-top: 12px;
+}
+ /* sticky  nav manu design ends for here 
+ ========================================= */
+ .mobile-manu{
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: right;
+    display: none;
+}
+.mobile-manu span{
+   color: #fff;
+   font-size: 40px;
+   cursor: pointer;
+    
+}
+.overlay{
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.close-btn{
+    font-size: 40px !important;
+    color: #fff !important;
+    margin-top: 20px;
+    margin-right: 20px !important;
+}
+.overlay-contant {
+  text-align: center;
+  margin-top: 120px;
+}
+.overlay a{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #999;
+    font-family: arial black;
+    display: block;
+    text-decoration: none;
+    margin: 20px 0px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+ 
+/* hero area design start
+=========================================  */
+.hero-area{
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+.hero-area h1{
+    font-size: 43px;
+    color: #f7f3ea;
+    font-weight: bold;
+    margin-bottom: 65px;
+}
+.hero-btn{
+    margin-bottom: 165px;
+    padding: 25px 85px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #eb7d4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+/* hero area design start
+============================================= */
+
+/* main header ends
+============================================== */
+
+/* service section start from here
+==============================================  */
+ 
+#service-section{
+    background-color: #17c2a4;
+    padding: 80px 0px;
+}
+
+.secction-header{
+    width:511px;
+    margin: 0 auto;
+    text-align: center;
+}
+.secction-header h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.secction-header h1::after{
+   content: "";
+   display: block;
+   height: 4px;
+   background-color: #c8d9e5;
+   width: 85px;
+   margin: 20px auto;
+}
+.secction-header p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.singel-sbox{
+    width: 225px;
+    margin-left: 80px;
+    float: left;
+    text-align: center;
+}
+.singel-sbox:first-child{
+    margin-left: 0px;
+}
+.singel-sbox img{
+    height: 120px;
+    margin-bottom: 55px;
+}
+.singel-sbox h1{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.singel-sbox p{
+   font-size: 14px;
+   color: #ffffffb3;
+   font-weight: lighter;
+   line-height: 20px;
+}
+/* service section ends from here 
+========================================== */
+
+/* our tream section design start from here 
+========================================== */
+#our-tream{
+    background-color: #e7f1f8;
+     
+}
+#header-color{
+    color: #3c4761;
+}
+.tream-member{
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin-left: 4%;
+}
+.tream-member:first-child{
+    margin-left: 0%;
+}
+.tream-member img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.tream-member img:hover{
+     transform: scale(1.3);
+     border: 3px solid #000;
+}
+.tream-member h2{
+   margin-top: 40px;
+   color:#3c4761;
+   font-size: 24px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-weight: bold;
+   cursor: pointer;
+}
+#active{
+    margin-top: 39px;
+}
+.tream-member h4{
+    font-size: 16px;
+    color: #30bae7;
+    margin-top: 12px;
+    cursor: pointer;
+ }
+.tream-member p{
+   font-size: 15px !important;
+   color: #3c4761;
+   line-height: 1.5;
+   margin: 30px 0px;
+ }
+ .social-icons i{
+      color: #fff;
+      background-color: #bdd1df;
+      padding: 7px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 0px 4px;
+      transition: 0.5s;
+ }
+#icons{
+    margin-top: 52px;
+}
+ .fab.fa-facebook-f {
+    padding: 8px 10px;
+  }
+ .social-icons i:hover{
+    background-color: #494949;
+    transform: rotate(360deg);
+ }
+ .social-icons:first-child{
+     padding: 20px
+ }
+
+/* our tream section design ends from here
+=========================================== */
+
+/* our skill section design ends from here
+=========================================== */
+.single-skill-boxs{
+    overflow: hidden;
+    text-align:center;
+}
+.singel-skill-box{
+    width: 20%;
+    float: left;
+    margin-right: 6.66%;
+}
+.singel-skill-box:last-child{
+    margin-right: 0px;
+}
+.singel-skill-box h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+svg.radial-progress circle{
+    stroke-width: 3px;
+}
+svg.radial-progress text{
+     fill: #3c4761;
+     font-size: 16px;
+}
+svg.html circle{
+    stroke:  #30bae7;
+}
+svg.css circle{
+    stroke:  #d74680;
+}
+svg.js circle{
+    stroke: #15c7a8;
+}
+svg.react circle{
+    stroke: #eb7d4b;
+}
+/* our skill section design ends from here
+=========================================== */
+
+/* portfolio section start from here
+===========================================  */
+#portfolio{
+    background-color: #ffdd99;
+}
+#portfolio h1{
+    color: #393939;
+}
+#portfolio p{
+    color: #393939;
+}
+#portfolio h1::after{
+    background-color: #e5c37f;
+}
+.btn-container{
+    /*! text-align: center; */
+    width: 356px;
+    margin: 0 auto;
+}
+.port-btn{
+    width: 80px;
+    background: #ebc985;
+    border: none;
+    padding: 7px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    margin: 0px 3px;
+}
+.portfolio-boxs{
+    overflow: hidden;
+}
+.singel-portfolio-box{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 65px;
+}
+.singel-portfolio-box img{
+    width: 90%;
+}
+.singel-portfolio-box h3{
+    font-size: 18px;
+    color: #393939;
+    font-weight: normal;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.portfolio-btn{
+    text-align: center;
+}
+#portfolio-btn{
+    border: none;
+    padding: 25px 30px ;
+    font-size: 18px;
+    color: #fff;
+    background-color: #17c2a4;
+    border-radius: 5px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.mixitup-control-active{
+    background-color:#fff;
+}
+
+/* portfolio section ends from here 
+======================================== */
+
+/* testimonial section start from here 
+======================================== */
+#testimonial{
+    background-color: #d74680;
+}
+.section-header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.section-header h1::after{
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: #c8d9e5;
+    width: 85px;
+    margin: 20px auto;
+ }
+ 
+.section-header{
+    text-align: center;
+}
+.section-header p{
+     color: #fff;
+     font-weight: 400;
+     font-size: 18px;
+}
+
+.testimonial-all-boxs{
+    overflow: hidden;
+}
+.singel-testimonial-box{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.testimonial-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+}
+.testimonial-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.testimonial-img img:hover{
+    transform:scale(1.5);
+    border: 3px solid #000;
+}
+.testimonial-dosc{
+    width: 390px;
+    float: right;
+    text-align: left;
+    margin-left: 20px;
+}
+.testimonial-dosc p{
+    font-size: 21px;
+    font-weight: 100;
+    color: #fff;
+    width: 354px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.testimonial-dosc h3{
+    font-size: 24px;
+    color: #fff;
+}
+.testimonial-dosc h5{
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffdd99;
+}
+#testimonial h1::after{
+     background-color: #b73c6d;
+}
+#testimonial #header-color{
+   color: #fff;
+}
+
+/* testimonial section ends from here 
+======================================== */
+
+ /* contact section design start from here 
+ ======================================== */
+ #contact-section{
+     background-color: #3c5499;
+ }
+ #contact-section h1::after{
+     background-color:#273a71;
+ }
+ #contact-section p{
+     color:#fff;
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ #contact-section form{
+     width: 70%;
+     margin-left: 15%;
+     
+ }
+.input-area{
+    overflow: hidden;
+}
+.input-text{
+    width: 47%;
+    float: left;
+}
+.input-email{
+    width: 47%;
+    float: right;
+    text-align: right;
+}
+.input-area input[type="text"]{
+     width: 100%;
+     padding: 10px 15px;
+     border-radius: 3px;
+     border: none;
+     background-color: #273a71;
+     color: #fff;
+}
+.input-area input[type="email"]{
+     width: 100%;
+     padding: 10px 15px;
+     border-radius: 3px;
+     border: none;
+     background-color: #273a71;
+     color: #fff;
+}
+#contact-section form textarea{
+    width: 100%;
+    background-color: #273a71;
+    border: none;
+    padding: 0px 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding-top: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+ 
+.sub-btn {
+    padding: 20px 70px;
+    background-color: #30bae7;
+    border: none;
+    margin-top: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#fff;
+    border-bottom: #299ec5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sub-btn:hover {
+     background-color: #87509c;
+}
+  .submit-botton{
+      text-align: center;
+  }
+ 
+ /* contact section design ends from here 
+ ======================================== */
+
+ /* footer section design start from here 
+ ======================================== */
+ #footer{
+    background-color: #344b8e;
+    border-top: 2px solid #273a71;
+ }
+ .main-footer{
+    text-align: center;
+ }
+ .main-footer ul li {
+     display: inline-block;
+     padding: 50px 25px;
+ }
+
+ .main-footer ul li a{
+      font-size: 18px;
+      color: #fff;
+      text-transform: capitalize;
+      transition: 0.3s;
+ }
+ .main-footer ul li a:hover{
+    color: #30bae7;
+ }
+ /* footer section design ends from here 
+ ======================================== */
